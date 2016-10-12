@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+	}
+	
+body {
+	background-image: url(backg222.png); 
+	font-family: Arial, Verdana, Tahoma;
+	color: #333;
+	font-size: 13px;
+    margin: 0;
+}
+
+.boxv {
+	background-color: #ffffff;
+	float: auto;
+	width: 340px;
+	height: 600px;
+    position: absolute;
+	top: 0;
+    right: 380;
+
+}
+
+.boxh {
+    background-color: #01016b;
+    width: 690px;
+    height: 238px;
+    top: 300px;
+    right: 0;
+    position: absolute;
+    float: auto;
+    z-index: 2;
+}
+
+#logo {
+    top: 190;
+    left:38;
+    position: absolute;
+    
+}
+
+form input {
+    border: 0;
+    position: absolute;
+    text-align: right;
+    padding-right: 12;
+}
+
+.user {
+    margin: 70 30;
+    border-radius: 5px;
+    width: 250;
+    height: 32px;
+    font-size: 15px;
+}
+
+.pass {
+    margin: 115 30;
+    border-radius: 5px;
+    width: 250;
+    height: 32px;
+    font-size: 15px;
+}
+
+.enviar {
+    width: 140;
+    height: 32;
+    border-radius: 7px;
+    margin: 160 90;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    background-color: #2e58ca;
+    color: white;
+}
+
+#twitter {
+    position: absolute;
+    margin: 0 450;
+}
+#face {
+    position: absolute;
+    margin: 79 450;
+}
+#googleplus {
+    position: absolute;
+    margin: 158 450;
+}
+
+footer{
+    background-color: lightgrey;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    position: absolute;
+    z-index: 4;
+}
