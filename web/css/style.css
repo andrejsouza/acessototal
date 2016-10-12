@@ -58,18 +58,11 @@ h1, h2, h3, h4 {font-weight: bold; color: #242461;}
 .eventos {border:1px solid #c0c0c0;text-align: right; margin: 10px 0px;}
 .eventos h3 { color: #a9a9a9; font-size: 15px; font-weight: normal; margin-bottom: 10px;}
 .eventos h4 { color: #20209e; font-size: 12px; font-weight: normal;}
-
-
-
-
-
 form {font-family: FontAwesome;color: #000;}
 .border-radius {border-radius: 100%;}
-
-
 .no-padding { padding: 1px !importat;}
-/*-- Tratando Responsividade --*/
 
+/*-- Tratando Responsividade --*/
 .row {padding: 0 !important;}
 
 .row::after {
@@ -79,8 +72,7 @@ form {font-family: FontAwesome;color: #000;}
 [class*="col-"] {
     float: left;
     width: 100%;
-    padding: 10px;    
-
+    padding: 10px;
 }
 
 @media only screen and (min-width:300px){
