@@ -1,0 +1,395 @@
+body {
+	font-family:  Verdana, Tahoma;
+	color: #333;
+	font-size: 12px;
+	margin:0;
+	padding:0;
+	background-color: #eff3ff;
+}
+
+.box{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.box .content {
+	width: 900px;
+	background-color: #f4f4f4;
+	float:left;
+}
+
+.box .content .header1 {
+	width: 180px;
+	height: 60px;
+	background-color: #f7f7f7;
+	float:left;
+}
+
+.box .content .header2 {
+	width: 480px;
+	height: 60px;
+	background-color: darkblue;
+	float:left;
+}
+
+.box .content .header3 {
+	width: 240px;
+	height: 60px;
+	background-color: #f7f7f7;
+	float:left;
+}
+
+form #busca {
+	margin: 10px 95px;
+	border-radius: 5px;
+	width:300px;
+}
+
+.box .content .sideleft{
+	float: left;
+	width: 180px;
+	background-color: #fff;
+	height: 500px;
+	position:relative;
+
+}
+
+.box .content .cont{
+	width: calc(510px - 30px);
+	height: 500px;
+	background-color: darkblue;
+    padding: 10px;
+	float: left;
+}
+
+.header3 .iconheader1, #user{
+	margin:5px auto;
+	float: auto;
+	text-decoration: none;
+}
+
+.sideleft h2{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sideleft ul  {
+	margin-bottom: 1px;
+	padding: 10px 5px 0 0; 
+}
+
+.sideleft li {
+	background-color: white;
+	margin: 0 20px 1px 0;
+	padding: 1px 10px;
+	font-size: 12px;
+	list-style-type: none;
+}
+
+.box .content .sideright{
+	width: 240px;
+	background-color: #fff;
+	height: 500px;
+	float: left;
+	padding-top: 10px;
+
+}
+
+.news{
+	width:222px;
+	height:100px;
+	padding: 5px;
+	border: 1px solid;
+	border-color: red;
+	border-right-color: white;
+	float: right;
+}
+
+.news #newstitle{
+	color: #cacaca;
+	float: right;
+}
+
+.news #newscontent{
+	font-size: 10px;
+	margin-top: 10px;
+    float: left;
+}
+
+.box .content .sideright .events{
+	margin: 10px auto;
+	width:222px;
+	height:140px;
+	float: right;
+	padding: 5px;
+	border: 1px solid;
+	border-color: grey;
+	border-right-color: white;
+}
+
+.eventtitle{
+	color: #cacaca;
+	float: right;
+}
+
+.eventsubtitle{
+    clear: both;
+	font-size: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #5d60ff;
+    text-align: right;
+    float: right;
+}
+
+.eventcontent{
+    clear: both;
+    float: right;
+	font-size: 8px;
+    width: 100%;
+    color: grey;
+    text-align: right;  
+}
+/* inicio do Post da Janaína  */
+
+.boxpost1{
+	margin: 14px auto;
+    background-color: #fff;
+    width: 450px;
+    height: 175px;
+	padding-top: 10px;
+    border-radius: 10px;
+}
+.boxpost1 .photo{
+	width:16%;
+	height:100%;
+	padding-left: 10px;
+	float: left;
+	border-radius: 5px;
+}
+.boxpost1 .username{
+	width: 100%;
+	height: 16px;
+	padding-left: 4px;
+	color: darkblue;
+	font-weight: bold;
+}
+
+.boxpost1 .post{
+	width: 440px;
+	height: 105px;
+	margin: 6px;
+}
+.hashtag{
+	font-weight: bold;
+}
+
+.anexo{
+	color: grey;
+}
+.boxpost1 .anexoicone {
+	margin-left: 8px;
+}
+
+.boxpost1 .comment{
+	width: 440px;
+	height: 25px;
+	margin: 4px;
+	color: grey;
+}
+
+/* Fim do Post da Janaína  */
+
+#commentfield{
+	clear:both;
+	width: 280px;
+	margin-left: 4px;
+}
+#commentIcon{
+	margin-left: 2px;
+}
+
+/* inicio do Post do Pedro  */
+
+.boxpost{
+	margin: 14px auto;
+    background-color: #fff;
+    width: 450px;
+    height: 120px;
+	padding-top: 10px;
+    border-radius: 10px;
+}
+
+.boxpost .photo{
+	width:16%;
+	height:100%;
+	padding-left: 10px;
+	float: left;
+	border-radius: 5px;
+}
+.boxpost .username{
+	width: 100%;
+	height: 16px;
+	padding-left: 4px;
+	color: darkblue;
+	font-weight: bold;
+}
+
+.boxpost .post{
+	width: 440px;
+	height: 50px;
+	margin: 6px;
+}
+
+.boxpost .friendcomment {
+	margin-top:8px;
+	font-size: 9px;
+	color: grey;
+}
+
+.boxpost .anexoicone {
+	margin-left: 8px;
+}
+
+.boxpost .comment{
+	width: 440px;
+	height: 25px;
+	margin: 4px;
+	color: grey;
+}
+
+#commentfield{
+	clear:both;
+	width: 280px;
+	margin-left: 4px;
+}
+#commentIcon{
+	margin-left: 2px;
+}
+/* Fim post Pedro*/
+
+/*Frequência*/
+
+.headerbox{
+	width: 400px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#periodo, #text {
+	margin: 10px auto;
+	margin-left: 5px;
+}
+
+
+.boxfreq {
+	margin: 14px auto;
+	padding-left: 5px;
+    background-color: #fff;
+    width: 450px;
+    height: 320px;
+	padding-top: 10px;
+    border-radius: 10px;
+}
+
+.tabfreq  {
+
+	margin: 15px auto;
+	font-family: Calibri;
+	font-weight: bold;
+	box-shadow: 5px 5px 5px #7f7f7f;
+}
+
+.tabfreq thead {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+}
+
+.tabfreq td {
+	clear: both;
+	border:3px solid white;
+    padding:3px 7px 2px 7px;
+	height: 25px;
+	background-color: #edf3e8;
+	
+}
+
+.porcfreq {
+	text-align: center;
+}
+/* Fim Frequencia */
+
+/* Inicio Notas */
+
+.boxnotas {
+	margin: 14px auto;
+	padding-left: 5px;
+    background-color: #fff;
+    width: 450px;
+    height: 320px;
+	padding-top: 10px;
+    border-radius: 10px;
+}
+
+.tabnotas  {
+
+	margin: 15px auto;
+	font-family: Calibri;
+	font-weight: bold;
+	box-shadow: 5px 5px 5px #7f7f7f;
+}
+
+.tabnotas thead {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+}
+
+.tabnotas  td{
+	clear: both;
+	border:3px solid white;
+    padding:3px 7px 2px 7px;
+	height: 25px;
+	background-color: #edf3e8;
+	
+}
+
+.tabnotas .porcfreq {
+	text-align: center;
+}
+
+/* Inicio Curriculo */
+
+.boxcurriculo {
+	margin: auto;
+    background-color: #fff;
+    width: 450px;
+    height: 490px;
+	padding-top: 10px;
+	padding-left: 5px;
+	overflow:auto;
+}
+
+form input {
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	border:0;
+
+}
+.boxcurriculo fieldset{
+	margin-top: 10px;
+}
+
+.boxcurriculo legend{
+	font-size: 18px;
+}
+
+.boxcurriculo label{
+	color: #286090;
+}

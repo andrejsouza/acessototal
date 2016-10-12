@@ -1,0 +1,138 @@
+/* 
+    Created on : 21/09/2016, 09:35:50
+    Author     : Allan
+*/
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body, html {font-family: Source sans pro; font-size: 12px;}
+h1, h2, h3, h4 {font-weight: bold; color: #242461;}
+
+.wrapper {display: flex; height: 100%; }
+
+/*-- Left --*/
+.side-left {background-color: #fff; position: initial;}
+.logo {}
+.logo img {margin: 0 auto; display: table; width: 100%;}
+.side-left nav {margin:15px 0px; }
+.menu h2 {text-align: center; font-size: 18px; margin-bottom: 15px;}
+.menu ul,li { width: 100%; list-style: none; font-size: 13px;}
+.menu li {height: 30px; line-height: 30px; padding-left: 10px; }
+.menu li i {margin-right: 15px; font-size: 16px; color: #333; }
+.menu li:hover {background-color: #fafafa;}
+
+/*-- Center --*/
+.center { margin: 0 auto;}
+.post {background-color: #fff; border-radius: 12px; margin-top: 15px; font-size: 13px; color: #333;}
+.hashtag {font-weight: bold; color: #585858; margin-top: 15px; display: table;}
+.rodape-post {margin-top: 40px; padding: 0px 10px !important;}
+.rodape-post div { padding-top: 0; padding-bottom: 0;}
+.rodape-post button { font-size: 19px; margin: 5px auto; display: block; background-color: transparent; border: 0;}
+.rodape-post i { font-size: 19px; margin-top: 5px; margin: 5px auto; display: table;}
+.rodape-post textarea {width: 100%; resize: none; background-color: #f3f3f3; border: 0; height: 25px; margin-top: 5px; border-radius: 12px; padding: 5px 10px;}
+.rodape-post textarea:focus {height: 60px; background-color: #e7e7e7; outline:none; -webkit-transition: height 0.2s ease-in-out; transition: height 0.2s ease-in-out;}
+
+/*-- Busca --*/
+.search {margin-bottom: 40px;}
+.search input {background-image: url('../images/icon-search.png'); background-position: 98%; background-repeat: no-repeat; color: #fff; background-color: transparent; width: 40%; display: block; margin: 0 auto; border: 1px solid #cecece; padding: 6px 20px; border-radius: 5px; -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out;}
+.search input[type=text]:focus {width: 70%; outline:none;}
+.search ::-webkit-input-placeholder {color: #fff;text-align: center;}
+.search :-moz-placeholder {color: #fff;text-align: center;}
+.search ::-moz-placeholder {color: #fff;text-align: center;}            
+.search :-ms-input-placeholder {color: #fff;text-align: center;}
+
+/*-- Right --*/
+.side-right {background-color: #fff;}
+
+/*-- Opções --*/
+.opcoes {margin-bottom: 30px;}
+.opcoes div {float: left; width: 20%;}
+.opcoes button {cursor: pointer; width: 30px; height: 30px; border: none; background-color: #242461; color: #fff; font-size: 16px; padding: 7px; margin: 0 auto; display: block;}
+.opcoes img {display: block; margin: 0 auto; border-radius: 100%;}
+.opcoes .notificacoes { width: 17px; height: auto; background-color: #f10c0c; font-size: 13px; color: #fff; margin: -35px 50%; border-radius: 100%; position: relative; font-weight: bold; text-align: center;}
+
+/*-- box --*/
+.novidades {border:1px solid #f10c0c;text-align: right; margin: 10px 0px;}
+.novidades h3 { color: #a9a9a9; font-size: 15px; font-weight: normal; margin-bottom: 10px;}
+.eventos {border:1px solid #c0c0c0;text-align: right; margin: 10px 0px;}
+.eventos h3 { color: #a9a9a9; font-size: 15px; font-weight: normal; margin-bottom: 10px;}
+.eventos h4 { color: #20209e; font-size: 12px; font-weight: normal;}
+
+
+
+
+
+form {font-family: FontAwesome;color: #000;}
+.border-radius {border-radius: 100%;}
+
+
+.no-padding { padding: 1px !importat;}
+/*-- Tratando Responsividade --*/
+
+.row {padding: 0 !important;}
+
+.row::after {
+    content: "";
+    clear: both;  
+}
+[class*="col-"] {
+    float: left;
+    width: 100%;
+    padding: 10px;    
+
+}
+
+@media only screen and (min-width:300px){
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}      
+}
+
+@media only screen and (min-width:600px){
+    .sidebar {position: initial;  height: auto;}
+
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}      
+}
+@media only screen and (min-width:768px){
+    .sidebar {position: fixed;  height: 100%;}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}      
+}
+.gradiente {background: #242461; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(#242461, #3f3f96); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(#242461, #3f3f96); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(#242461, #3f3f96); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(#242461, #3f3f96); /* Standard syntax */
+}
