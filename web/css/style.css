@@ -63,8 +63,8 @@ form {font-family: FontAwesome;color: #000;}
 
 
 /*-- Icones Flutuantes --*/
-.botoes-flutuantes {z-index: 1000; position: absolute; bottom: 0; right: 0; width: 60px; position: fixed; padding-bottom: 10px;}
-.botoes-flutuantes button {width: 40px; height: 40px; margin: 5px; background-color: #242461; border: 0; color: #fff; font-size: 16px; box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);}
+.botoes-flutuantes {z-index: 1000; position: absolute; bottom: 0; right: 0; width: 50px; position: fixed; padding-bottom: 5px;}
+.botoes-flutuantes button {width: 40px; height: 40px; margin: 4px; background-color: #242461; border: 0; color: #fff; font-size: 16px; box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);}
 .botao-opcoes {}
 .botao-chat {}
 
