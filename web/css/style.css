@@ -76,6 +76,16 @@ form {font-family: FontAwesome;color: #000;}
 .perfil .post-perfil>div {display: flex;}
 .perfil .post-perfil .rodape-post { margin-top: 0; display: flex;align-items: flex-end;}
 
+/*-- Notas--*/
+.notas {background-color: #fff; border-radius: 12px;}
+.notas table {width: 100%; margin-top: 50px;}
+.notas table td {padding: 10px; background-color: #f0f0f0;}
+.notas table th {font-size: 13px;}
+.notas table .regular {text-align: center; color: #34711b;}
+.notas table .insuficiente {text-align: center; color: #f10c0c;}
+.select-transparente {margin: 10px 0px;background-color: transparent; border: 1px solid #fff; color: #fff; width: 100%; padding:5px; border-radius: 7px;}
+.select-transparente>option {background-color: #242461;  padding:7px;}
+
 /*-- Icones Flutuantes --*/
 .botoes-flutuantes {z-index: 1000; position: absolute; bottom: 0; right: 0; width: 50px; position: fixed; padding-bottom: 5px;}
 .botoes-flutuantes button {width: 40px; height: 40px; margin: 4px; background-color: #242461; border: 0; color: #fff; font-size: 16px; box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);}
@@ -145,7 +155,8 @@ form {font-family: FontAwesome;color: #000;}
     .col-g-12 {width: 100%;}      
 }
 @media only screen and (min-width:1000px){
-    body {display: flex;}
+    html {height: 100%;}
+    body {display: flex; align-items: stretch; height: 100%;}
     .search input {width: 40%;}
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
