@@ -156,7 +156,7 @@ form {font-family: FontAwesome;color: #000;}
 }
 @media only screen and (min-width:1000px){
     html {height: 100%;}
-    body {display: flex; align-items: stretch; height: 100%;}
+    body {display: flex; }
     .search input {width: 40%;}
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
